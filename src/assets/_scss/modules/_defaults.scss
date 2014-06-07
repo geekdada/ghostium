@@ -6,15 +6,16 @@
 
 html {
   font-size: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body {
-  font: 400 20px/1.6 $text-font-family;
+  font: 400 17px/1.8 $text-font-family;
   background: $background-color;
   color: $text-color;
 
   @include breakpoint(small) {
-    font-size: 18px;
-    line-height: 1.4;
+    font-size: 15px;
+    line-height: 1.8;
   }
 }
